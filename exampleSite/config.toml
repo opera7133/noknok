@@ -1,0 +1,70 @@
+baseURL = "https://example.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Noknok"
+theme = "noknok"
+
+[params]
+
+  [params.site]
+    name = "Noknok"
+
+  [params.homepage_meta_tags]
+    meta_description = "A white-based theme for portfolios."
+    meta_og_title = "Noknok"
+    meta_og_type = "website"
+    meta_og_url = "https://example.com"
+    meta_og_image = "https://example.com/img/thumbnail.png"
+    meta_og_description = "A white-based theme for portfolios."
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@scgame_m"
+    meta_twitter_creator = "@scgame_m"
+
+  [params.main]
+    username = "noknok"
+    description = "A white-based theme for portfolios."
+    image = "https://siasky.net/KACaxqbxvfP3df-vzqjsvUdwtlGa5sdLsfXKZ8Xn33x7JQ"
+
+  [params.sns]
+    twitter = "https://twitter.com/"
+    github = "https://github.com/"
+    youtube = "https://www.youtube.com/"
+#    telegram = ""
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "works"
+    name = "Works"
+    url = "/works/"
+    weight = 3
+
+  [[menu.ex]]
+    name = "Contact"
+    url = "/contact"
+      weight = 1
+
+[build]
+  writeStats = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
+
+# If you're using Yandex.Metrica, you can enable this feature.
+#[params.analytics.yandexmetrica]
+#    enabled = true
+#    tagNumber = ''
