@@ -2,7 +2,7 @@
 
 A white-based theme for portfolios.
 
-The demo can be seen here: 
+The demo can be seen here: https://noknok.netlify.app
 
 ## Features
 * Responsive
