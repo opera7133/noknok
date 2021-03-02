@@ -44,8 +44,8 @@ $ npm install -g autoprefixer
 Inside the folder of your Hugo site run:
 
 ```bash
-$ git submodule add https://github.com/opera7133/Blonde.git themes/Blonde
-$ cd themes/Blonde
+$ git submodule add https://github.com/opera7133/noknok.git themes/noknok
+$ cd themes/noknok
 $ npm install
 ```
 
@@ -72,7 +72,7 @@ $ git submodule update --remote --merge
 ```
 
 ## Contributing
-If you find a bug or have an idea for a feature, feel free to write an [issue](https://github.com/opera7133/Blonde/issues) or make a PR.
+If you find a bug or have an idea for a feature, feel free to write an [issue](https://github.com/opera7133/noknok/issues) or make a PR.
 
 ## License
-This theme is released under the [MIT license](https://github.com/opera7133/Blonde/blob/master/LICENSE).
+This theme is released under the [MIT license](https://github.com/opera7133/noknok/blob/master/LICENSE).
