@@ -31,6 +31,20 @@ You don't have to do anything :)
   src: url("/fonts/NotoSansJP-Bold.otf") format("opentype");
   font-weight: 700;
 }
+
+(中略)
+
+html {
+  font-family: "Raleway", "NotoSansJP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.content {
+  font-family: "NotoSansJP", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 ```
 
 ## Prerequisites
