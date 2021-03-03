@@ -18,33 +18,51 @@ The demo can be seen here: https://noknok.netlify.app
 You don't have to do anything :)
 
 ### 日本語
-以下のコードをminifyして、```static/css/style.min.css```の冒頭部分と置き換えてください。
-
+以下のコード（diff）の通りに```static/css/style.css```を置き換え、minifyしてください。
+```diff
+-@font-face {
+-  font-family: OpenSans;
+-  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+-  font-weight: 400;
+-}
+-@font-face {
+-  font-family: OpenSans;
+-  src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+-  font-weight: 700;
+-}
++@font-face {
++  font-family: NotoSansJP;
++  src: url("/fonts/NotoSansJP-Regular.otf") format("opentype");
++  font-weight: 400;
++}
++@font-face {
++  font-family: NotoSansJP;
++  src: url("/fonts/NotoSansJP-Bold.otf") format("opentype");
++  font-weight: 700;
++}
 ```
-@font-face {
-  font-family: NotoSansJP;
-  src: url("/fonts/NotoSansJP-Regular.otf") format("opentype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: NotoSansJP;
-  src: url("/fonts/NotoSansJP-Bold.otf") format("opentype");
-  font-weight: 700;
-}
 
-(中略)
-
-html {
-  font-family: "Raleway", "NotoSansJP", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.content {
-  font-family: "NotoSansJP", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
+```diff
+-html {
+-  font-family: "Raleway", "OpenSans", sans-serif;
+-  font-weight: 400;
+-  font-style: normal;
+-}
+-.content {
+-  font-family: "OpenSans", sans-serif;
+-  font-weight: 400;
+-  font-style: normal;
+-}
++html {
++  font-family: "Raleway", "NotoSansJP", sans-serif;
++  font-weight: 400;
++  font-style: normal;
++}
++.content {
++  font-family: "NotoSansJP", sans-serif;
++  font-weight: 400;
++  font-style: normal;
++}
 ```
 
 ## Prerequisites
