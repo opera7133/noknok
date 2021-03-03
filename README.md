@@ -1,5 +1,7 @@
 # Noknok
 
+![noknok_thumbnail](https://user-images.githubusercontent.com/39876629/109757534-523c7b00-7c2d-11eb-8cd9-452f21e74473.jpg)
+
 A white-based theme for portfolios.
 
 The demo can be seen here: https://noknok.netlify.app
