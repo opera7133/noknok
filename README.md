@@ -1,6 +1,6 @@
 # Noknok
 
-![noknok_thumbnail](https://user-images.githubusercontent.com/39876629/109757534-523c7b00-7c2d-11eb-8cd9-452f21e74473.jpg)
+![78105b82-e1ac-48d9-81ba-a2be8e8b998d](https://user-images.githubusercontent.com/39876629/109757633-844ddd00-7c2d-11eb-83ed-bada9fd29990.png)
 
 A white-based theme for portfolios.
 
