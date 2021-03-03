@@ -11,6 +11,8 @@ The demo can be seen here: https://noknok.netlify.app
 * Google Analytics
 * Yandex Metrica
 * RSS Feeds
+* Lighthouse : 95
+* GTMetrix : 93%
 
 ## Recommended font settings
 
