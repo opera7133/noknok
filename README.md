@@ -20,7 +20,7 @@ The demo can be seen here: https://noknok.netlify.app
 ## Recommended font settings
 
 ### English
-You don't have to do anything :)
+You don't have to do anything ;)
 
 ### 日本語
 以下のコード（diff）の通りに```static/css/style.css```を置き換え、minifyしてください。
