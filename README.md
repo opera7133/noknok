@@ -4,7 +4,7 @@
 
 A white-based theme for portfolios.
 
-The demo can be seen here: https://noknok.netlify.app
+The demo can be seen here: https://noknok.pages.dev
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=opera7133/noknok&engine=hugo&version=0.81.0&config=exampleSite)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/opera7133/noknok)
