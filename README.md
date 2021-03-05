@@ -14,7 +14,7 @@ The demo can be seen here: https://noknok.pages.dev
 * Google Analytics
 * Yandex Metrica
 * RSS Feeds
-* Lighthouse(Performance) : [99](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https://noknok.pages.dev)
+* Lighthouse Score : [99](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https://noknok.pages.dev)
 * GTMetrix : 93%
 
 ## Recommended font settings
