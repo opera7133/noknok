@@ -1,34 +1,73 @@
 # Noknok
 
+![78105b82-e1ac-48d9-81ba-a2be8e8b998d](https://user-images.githubusercontent.com/39876629/109757633-844ddd00-7c2d-11eb-83ed-bada9fd29990.png)
+
 A white-based theme for portfolios.
 
-The demo can be seen here: 
+The demo can be seen here: https://noknok.pages.dev
+
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=opera7133/noknok&engine=hugo&version=0.81.0&config=exampleSite)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/opera7133/noknok)
 
 ## Features
 * Responsive
 * Google Analytics
 * Yandex Metrica
 * RSS Feeds
+* Lighthouse Score : [99](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https://noknok.pages.dev)
+* GTMetrix : 97%
 
 ## Recommended font settings
 
 ### English
-You don't have to do anything. :)
+You don't have to do anything ;)
 
 ### 日本語
-以下のコードをminifyして、```static/css/style.min.css```の冒頭部分と置き換えてください。
-
+以下のコード（diff）の通りに```static/css/style.css```を置き換え、minifyしてください。
+```diff
+-@font-face {
+-  font-family: OpenSans;
+-  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+-  font-weight: 400;
+-}
+-@font-face {
+-  font-family: OpenSans;
+-  src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+-  font-weight: 700;
+-}
++@font-face {
++  font-family: NotoSansJP;
++  src: url("/fonts/NotoSansJP-Regular.otf") format("opentype");
++  font-weight: 400;
++}
++@font-face {
++  font-family: NotoSansJP;
++  src: url("/fonts/NotoSansJP-Bold.otf") format("opentype");
++  font-weight: 700;
++}
 ```
-@font-face {
-  font-family: NotoSansJP;
-  src: url("/fonts/NotoSansJP-Regular.otf") format("opentype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: NotoSansJP;
-  src: url("/fonts/NotoSansJP-Bold.otf") format("opentype");
-  font-weight: 700;
-}
+
+```diff
+-html {
+-  font-family: "Raleway", "OpenSans", sans-serif;
+-  font-weight: 400;
+-  font-style: normal;
+-}
+-.content {
+-  font-family: "OpenSans", sans-serif;
+-  font-weight: 400;
+-  font-style: normal;
+-}
++html {
++  font-family: "Raleway", "NotoSansJP", sans-serif;
++  font-weight: 400;
++  font-style: normal;
++}
++.content {
++  font-family: "NotoSansJP", sans-serif;
++  font-weight: 400;
++  font-style: normal;
++}
 ```
 
 ## Prerequisites
@@ -44,8 +83,8 @@ $ npm install -g autoprefixer
 Inside the folder of your Hugo site run:
 
 ```bash
-$ git submodule add https://github.com/opera7133/Blonde.git themes/Blonde
-$ cd themes/Blonde
+$ git submodule add https://github.com/opera7133/noknok.git themes/noknok
+$ cd themes/noknok
 $ npm install
 ```
 
@@ -72,7 +111,7 @@ $ git submodule update --remote --merge
 ```
 
 ## Contributing
-If you find a bug or have an idea for a feature, feel free to write an [issue](https://github.com/opera7133/Blonde/issues) or make a PR.
+If you find a bug or have an idea for a feature, feel free to write an [issue](https://github.com/opera7133/noknok/issues) or make a PR.
 
 ## License
-This theme is released under the [MIT license](https://github.com/opera7133/Blonde/blob/master/LICENSE).
+This theme is released under the [MIT license](https://github.com/opera7133/noknok/blob/master/LICENSE).
