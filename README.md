@@ -11,6 +11,7 @@ The demo can be seen here: https://noknok.pages.dev
 
 ## Features
 * Responsive
+* Darkmode
 * Google Analytics
 * Yandex Metrica
 * RSS Feeds
