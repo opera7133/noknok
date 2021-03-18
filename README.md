@@ -28,22 +28,22 @@ You don't have to do anything ;)
 ```diff
 -@font-face {
 -  font-family: OpenSans;
--  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+-  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 -  font-weight: 400;
 -}
 -@font-face {
 -  font-family: OpenSans;
--  src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+-  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
 -  font-weight: 700;
 -}
 +@font-face {
 +  font-family: NotoSansJP;
-+  src: url("/fonts/NotoSansJP-Regular.otf") format("opentype");
++  src: url("../fonts/NotoSansJP-Regular.otf") format("opentype");
 +  font-weight: 400;
 +}
 +@font-face {
 +  font-family: NotoSansJP;
-+  src: url("/fonts/NotoSansJP-Bold.otf") format("opentype");
++  src: url("../fonts/NotoSansJP-Bold.otf") format("opentype");
 +  font-weight: 700;
 +}
 ```
