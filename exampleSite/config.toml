@@ -31,12 +31,6 @@ theme = "noknok"
     description = "A white-based theme for portfolios."
     image = "https://siasky.net/KACaxqbxvfP3df-vzqjsvUdwtlGa5sdLsfXKZ8Xn33x7JQ"
 
-  [params.sns]
-    twitter = "https://twitter.com/"
-    github = "https://github.com/"
-    youtube = "https://www.youtube.com/"
-#    telegram = ""
-
 [menu]
 
   [[menu.main]]
