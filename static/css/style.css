@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: Raleway;
   src: url("../fonts/Raleway-Regular.ttf") format("truetype");
@@ -21,6 +23,8 @@
   font-style: normal;
   font-display: block;
 }
+
+/* Icons */
 
 [class^="icon-"],
 [class*=" icon-"] {
@@ -135,6 +139,9 @@
   -moz-font-feature-settings: "liga";
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* main */
+
 html {
   font-family: "Raleway", "OpenSans", sans-serif;
   font-weight: 400;
@@ -166,6 +173,9 @@ h4 {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+
+/* Content */
+
 .content a {
   --tw-text-opacity: 1;
   color: rgba(37, 99, 235, var(--tw-text-opacity));
@@ -182,49 +192,11 @@ h4 {
   padding-left: 0.5em;
   background-color: #f6f6f6;
   border-left: 4px solid #222;
-  font-weight: 700;
-}
-@media (prefers-color-scheme: dark) {
-  .content h2 {
-    background-color: #1d2021;
-    border-left-color: #4b5563;
-  }
 }
 .content h3 {
   font-size: 1.5rem;
   padding-bottom: 0.25em;
   border-bottom: 2px solid #222;
-  font-weight: 700;
-}
-.h-v8 {
-  height: 80vh;
-}
-
-#modal-content {
-  width: 50%;
-  margin: 1.5em auto 0;
-  padding: 10px 20px;
-  border: 2px solid #aaa;
-  background: #fff;
-  z-index: 2;
-}
-
-.modal-p {
-  margin-top: 1em;
-}
-
-.modal-p:first-child {
-  margin-top: 0;
-}
-
-.button-link {
-  color: #00f;
-  text-decoration: underline;
-}
-
-.button-link:hover {
-  cursor: pointer;
-  color: #f00;
 }
 .content li {
   margin-left: 10px;
@@ -259,6 +231,15 @@ h4 {
 .content thead {
   display: table-header-group;
 }
+@media (prefers-color-scheme: dark) {
+  .content h2 {
+    background-color: #1d2021;
+    border-left-color: #4b5563;
+  }
+  .content blockquote {
+    background-color: #1d2021;
+  }
+}
 pre {
   padding: 0.5rem;
   max-width: 64em;
@@ -289,6 +270,35 @@ table {
 ul {
   list-style: inside;
 }
+
+/* Other */
+.h-v8 {
+  height: 80vh;
+}
+#modal-content {
+  width: 50%;
+  margin: 1.5em auto 0;
+  padding: 10px 20px;
+  border: 2px solid #aaa;
+  background: #fff;
+  z-index: 2;
+}
+.modal-p {
+  margin-top: 1em;
+}
+.modal-p:first-child {
+  margin-top: 0;
+}
+.button-link {
+  color: #00f;
+  text-decoration: underline;
+}
+.button-link:hover {
+  cursor: pointer;
+  color: #f00;
+}
+
+/* Menu */
 .type-1 {
   float: left;
   display: block;
@@ -357,7 +367,8 @@ textarea,
 select {
   -webkit-appearance: none;
 }
-/* 読み込み時フェードイン */
+
+/* FadeIn */
 #content {
   animation: fadein 1.5s ease 0s 1 normal;
   -webkit-animation: fadein 1.5s ease 0s 1 normal;

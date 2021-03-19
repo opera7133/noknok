@@ -51,6 +51,12 @@ theme = "noknok"
     url = "/works/"
     weight = 3
 
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+
   [[menu.ex]]
     name = "Contact"
     url = "/contact"

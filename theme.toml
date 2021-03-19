@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/opera7133/noknok/blob/master/LICENSE"
 description = "A white-based theme for portfolios."
 homepage = "https://github.com/opera7133/noknok"
-tags = ["Hugo", "minimal", "Tailwind CSS", "theme", "portfolio", "Light", "Dark", "Projects", "simple", "clean", "personal"]
+tags = ["Hugo", "minimal", "Tailwind CSS", "theme", "portfolio", "Light", "Dark", "Projects", "simple", "clean", "personal", "Blog"]
 features = ["portfolio"]
 min_version = "0.69"
 
