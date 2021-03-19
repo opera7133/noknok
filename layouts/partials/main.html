@@ -9,15 +9,15 @@
                 {{ if eq .name "Email" }}
                 <a href="mailto: {{ .url }}"
                     class="border border-black dark:border-white rounded-full m-1 inline-flex duration-150 w-12 h-12 items-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-gray-800"
-                    aria-label="Twitter Link"><span class="icon icon-telegram"></span></a>
+                    aria-label="Twitter Link"><span class="{{ .icon }}"></span></a>
                 {{ else if eq .name "Phone" }}
                 <a href="tel: {{ .url }}"
                     class="border border-black dark:border-white rounded-full m-1 inline-flex duration-150 w-12 h-12 items-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-gray-800"
-                    aria-label="Twitter Link"><span class="icon icon-telegram"></span></a>
+                    aria-label="Twitter Link"><span class="{{ .icon }}"></span></a>
                 {{ else }}
                 <a href="{{ .url }}"
                     class="border border-black dark:border-white rounded-full m-1 inline-flex duration-150 w-12 h-12 items-center hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-gray-800"
-                    aria-label="Twitter Link"><span class="icon icon-telegram"></span></a>
+                    aria-label="Twitter Link"><span class="{{ .icon }}"></span></a>
                 {{ end }}
                 {{ end }}
             </h2>
