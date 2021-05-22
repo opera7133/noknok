@@ -1,6 +1,6 @@
 # Noknok
 
-![78105b82-e1ac-48d9-81ba-a2be8e8b998d](https://user-images.githubusercontent.com/39876629/109757633-844ddd00-7c2d-11eb-83ed-bada9fd29990.png)
+![78105b82-e1ac-48d9-81ba-a2be8e8b998d](https://raw.githubusercontent.com/opera7133/noknok/main/images/screenshot.png)
 
 A white-based theme for portfolios.
 
@@ -11,11 +11,12 @@ The demo can be seen here: https://noknok.pages.dev
 
 ## Features
 * Responsive
+* Darkmode
 * Google Analytics
 * Yandex Metrica
 * RSS Feeds
-* Lighthouse(Performance) : [99](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https://noknok.pages.dev)
-* GTMetrix : 93%
+* Lighthouse Score : [99](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https://noknok.pages.dev)
+* GTMetrix : 97%
 
 ## Recommended font settings
 
@@ -27,22 +28,22 @@ You don't have to do anything ;)
 ```diff
 -@font-face {
 -  font-family: OpenSans;
--  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+-  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 -  font-weight: 400;
 -}
 -@font-face {
 -  font-family: OpenSans;
--  src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+-  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
 -  font-weight: 700;
 -}
 +@font-face {
 +  font-family: NotoSansJP;
-+  src: url("/fonts/NotoSansJP-Regular.otf") format("opentype");
++  src: url("../fonts/NotoSansJP-Regular.otf") format("opentype");
 +  font-weight: 400;
 +}
 +@font-face {
 +  font-family: NotoSansJP;
-+  src: url("/fonts/NotoSansJP-Bold.otf") format("opentype");
++  src: url("../fonts/NotoSansJP-Bold.otf") format("opentype");
 +  font-weight: 700;
 +}
 ```

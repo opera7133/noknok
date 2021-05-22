@@ -4,6 +4,12 @@ defaultContentLanguage = "en"
 title = "Noknok"
 theme = "noknok"
 
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "G-1234567890"
+
 [params]
 
   [params.site]
@@ -25,12 +31,6 @@ theme = "noknok"
     description = "A white-based theme for portfolios."
     image = "https://siasky.net/KACaxqbxvfP3df-vzqjsvUdwtlGa5sdLsfXKZ8Xn33x7JQ"
 
-  [params.sns]
-    twitter = "https://twitter.com/"
-    github = "https://github.com/"
-    youtube = "https://www.youtube.com/"
-#    telegram = ""
-
 [menu]
 
   [[menu.main]]
@@ -50,6 +50,12 @@ theme = "noknok"
     name = "Works"
     url = "/works/"
     weight = 3
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
 
   [[menu.ex]]
     name = "Contact"

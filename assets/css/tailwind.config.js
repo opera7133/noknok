@@ -1,9 +1,12 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      transform: ["hover"],
+    },
   },
-  variants: {},
-  plugins: [
-    require('@tailwindcss/typography'),
-  ]
-}
+  variants: {
+    typography: ["dark"],
+  },
+  plugins: [require("@tailwindcss/typography")],
+  darkMode: "media",
+};
