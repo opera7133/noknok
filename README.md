@@ -24,7 +24,7 @@ The demo can be seen here: https://noknok.pages.dev
 You don't have to do anything ;)
 
 ### 日本語
-現在(05/30)ファイルの構造をテストしているため、使用できません。
+現在(05/30)ファイルの構造をテストしているため、使用できません。  
 ~~以下のコード（diff）の通りに```static/css/fonts.css```を置き換えてください。~~
 ```diff
 -@font-face {
