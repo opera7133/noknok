@@ -15,8 +15,7 @@ The demo can be seen here: https://noknok.pages.dev
 * Google Analytics
 * Yandex Metrica
 * RSS Feeds
-* Lighthouse Score : [99](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https://noknok.pages.dev)
-* GTMetrix : 97%
+* Lighthouse Score : [100](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fnoknok.pages.dev)
 
 ## Recommended font settings
 
@@ -24,7 +23,8 @@ The demo can be seen here: https://noknok.pages.dev
 You don't have to do anything ;)
 
 ### 日本語
-以下のコード（diff）の通りに```static/css/style.css```を置き換え、minifyしてください。
+現在(05/30)ファイルの構造をテストしているため、使用できません。  
+~~以下のコード（diff）の通りに```static/css/fonts.css```を置き換えてください。~~
 ```diff
 -@font-face {
 -  font-family: OpenSans;
