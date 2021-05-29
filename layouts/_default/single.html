@@ -31,8 +31,8 @@
 {{ end }}
 
 {{ define "main" }}
-    <div class="mx-3 px-2 dark:text-white">
-        <h1 class="title text-5xl mt-3">{{.Title}}</h1>
-        <div class="content text-lg py-3 mb-3">{{.Content}}</div>
+    <div class="mx-3 px-2">
+        <h1 class="title text-5xl mt-3 dark:text-white">{{.Title}}</h1>
+        <div class="prose lg:prose-xl dark:prose-dark content text-lg py-3 mb-3">{{.Content}}</div>
     </div>
 {{ end }}

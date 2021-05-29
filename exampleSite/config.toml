@@ -11,25 +11,27 @@ theme = "noknok"
 #googleAnalytics = "G-1234567890"
 
 [params]
+# The number of articles to be displayed on a single page.
+paginator_pages = "5"
 
   [params.site]
     name = "Noknok"
 
   [params.homepage_meta_tags]
-    meta_description = "A white-based theme for portfolios."
+    meta_description = "A lean and mean theme for your portfolio."
     meta_og_title = "Noknok"
     meta_og_type = "website"
     meta_og_url = "https://example.com"
     meta_og_image = "https://example.com/img/thumbnail.png"
-    meta_og_description = "A white-based theme for portfolios."
+    meta_og_description = "A lean and mean theme for your portfolio."
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@scgame_m"
     meta_twitter_creator = "@scgame_m"
 
   [params.main]
     username = "noknok"
-    description = "A white-based theme for portfolios."
-    image = "https://siasky.net/KACaxqbxvfP3df-vzqjsvUdwtlGa5sdLsfXKZ8Xn33x7JQ"
+    description = "A lean and mean theme for your portfolio."
+    image = "https://i.imgur.com/SAe92bt.png"
 
 [menu]
 

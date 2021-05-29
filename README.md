@@ -2,7 +2,7 @@
 
 ![78105b82-e1ac-48d9-81ba-a2be8e8b998d](https://raw.githubusercontent.com/opera7133/noknok/main/images/screenshot.png)
 
-A white-based theme for portfolios.
+A lean and mean theme for your portfolio.
 
 The demo can be seen here: https://noknok.pages.dev
 

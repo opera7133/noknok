@@ -1,8 +1,11 @@
 {{ define "main" }}
 <div class="mx-3 px-2 dark:text-white">
     <h1 class="title text-5xl mt-3">{{.Title}}</h1>
-    {{ range .Pages }}
+    {{.Scratch.Set "Paginator" (.Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) (.Site.Params.paginator_pages) )}}
+    {{$paginator:=(.Scratch.Get "Paginator")}}
+    {{ range $paginator.Pages }}
     {{ .Render "summary" }}
     {{ end }}
+    {{ partial "paginator.html" . }}
 </div>
 {{ end }}
